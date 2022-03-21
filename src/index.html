@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=emboss|shadow-multiple">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">My Portfolio</a></li>
+            <li><a href="#contacts">Contact me</a></li>
+        </ul>
+    </nav>
+    <button class="hamburger" onclick="toggleMenu()">Menu</button>
+</header>
+<section id="about">
+    <h2>About me</h2>
+    <img id="girl" src="https://www.artmajeur.com/medias/standard/k/o/kondratenkozhanna/artwork/10595200_in-the-clouds-2016-65x50-cm.jpg" alt="girl">
+    <img id="css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/640px-CSS3_logo_and_wordmark.svg.png" alt="css" width="300" height="350">
+    <img id="js" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="js" width="300" height="350">
+    <img id="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="html" width="350" height="350">
+    <p class="p1">Hi, I'm Veronika. I've been learning Front-end development for several months now.</p>
+    <p class="p1">I'm really happy that I've found a new hobby for myself.</p>
+    <p class="p1"><b>Skills: </b> HTML, CSS, JS</p>
+</section>
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p id="flash"><button class="open-window">Flashcards</button></p>
+    <!--Project 1-->
+    <div class="window popup">
+        <div>
+            <h1>Flashcards</h1>
+            <p>You can see the project at the following link
+                <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+            <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                a web page with flip-down flash cards, learned some HTML basics and<br>
+                learned that CSS can easily make a beautiful design.</p>
+            <button class="close-window">Close</button>
+        </div>
+    </div>
+    <!--Project 1 ends here-->
+    <img id="flashcards" src="https://ucarecdn.com/170970bc-f84f-4631-b53f-75357f3f7099/" alt="Flashcards" width="1700">
+    <p class="p2 font-effect-emboss">Flashcards</p>
+    <img id="virtualPiano" src="https://ucarecdn.com/f7a62af7-f136-470c-8aa6-06813e85342d/" alt="Virtual Piano">
+    <p class="p2 font-effect-emboss">Virtual Piano</p>
+</section>
+<section id="contacts">
+     <p>You can contact me at <a href="mailto:veronika_bochkareva@icloud.com">veronika_bochkareva@icloud.com</a></p>
+
+</section>
+<footer>
+    <p>Copyright © Veronika Bochkareva, 2022</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
